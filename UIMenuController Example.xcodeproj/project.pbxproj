@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036327BF14687BF800034842 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036327BE14687BF800034842 /* UIKit.framework */; };
+		036327C114687BF800034842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036327C014687BF800034842 /* Foundation.framework */; };
+		036327C314687BF800034842 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036327C214687BF800034842 /* CoreGraphics.framework */; };
+		A00975E216E6C93800EB608C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A00975E116E6C93800EB608C /* Icon.png */; };
+		A00975E416E6C93C00EB608C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00975E316E6C93C00EB608C /* Icon@2x.png */; };
+		A0D0C24B16E6B1D1001CA551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D0C24916E6B1D1001CA551 /* InfoPlist.strings */; };
+		A0D0C24F16E6B1E3001CA551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D0C24C16E6B1E3001CA551 /* main.m */; };
+		A0D0C25716E6B1EF001CA551 /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D0C25216E6B1EF001CA551 /* JSAppDelegate.m */; };
+		A0D0C25816E6B1EF001CA551 /* JSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D0C25416E6B1EF001CA551 /* JSTableViewCell.m */; };
+		A0D0C25916E6B1EF001CA551 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D0C25616E6B1EF001CA551 /* JSViewController.m */; };
+		A0D0C25E16E6B329001CA551 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D0C25C16E6B329001CA551 /* Default.png */; };
+		A0D0C25F16E6B329001CA551 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D0C25D16E6B329001CA551 /* Default@2x.png */; };
+		A0D0C26216E6B345001CA551 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0D0C26116E6B345001CA551 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036327BA14687BF800034842 /* UIMenuController Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIMenuController Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036327BE14687BF800034842 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		036327C014687BF800034842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		036327C214687BF800034842 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A00975E116E6C93800EB608C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A00975E316E6C93C00EB608C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A0D0C24A16E6B1D1001CA551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "UIMenuController Example/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		A0D0C24C16E6B1E3001CA551 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "UIMenuController Example/main.m"; sourceTree = SOURCE_ROOT; };
+		A0D0C24D16E6B1E3001CA551 /* UIMenuController Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "UIMenuController Example-Info.plist"; path = "UIMenuController Example/UIMenuController Example-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A0D0C24E16E6B1E3001CA551 /* UIMenuController Example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIMenuController Example-Prefix.pch"; path = "UIMenuController Example/UIMenuController Example-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A0D0C25116E6B1EF001CA551 /* JSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSAppDelegate.h; path = "UIMenuController Example/JSAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		A0D0C25216E6B1EF001CA551 /* JSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSAppDelegate.m; path = "UIMenuController Example/JSAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		A0D0C25316E6B1EF001CA551 /* JSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSTableViewCell.h; path = "UIMenuController Example/JSTableViewCell.h"; sourceTree = SOURCE_ROOT; };
+		A0D0C25416E6B1EF001CA551 /* JSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSTableViewCell.m; path = "UIMenuController Example/JSTableViewCell.m"; sourceTree = SOURCE_ROOT; };
+		A0D0C25516E6B1EF001CA551 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSViewController.h; path = "UIMenuController Example/JSViewController.h"; sourceTree = SOURCE_ROOT; };
+		A0D0C25616E6B1EF001CA551 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSViewController.m; path = "UIMenuController Example/JSViewController.m"; sourceTree = SOURCE_ROOT; };
+		A0D0C25C16E6B329001CA551 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0D0C25D16E6B329001CA551 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0D0C26116E6B345001CA551 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036327B714687BF800034842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036327BF14687BF800034842 /* UIKit.framework in Frameworks */,
+				036327C114687BF800034842 /* Foundation.framework in Frameworks */,
+				036327C314687BF800034842 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036327AF14687BF800034842 = {
+			isa = PBXGroup;
+			children = (
+				036327C414687BF800034842 /* UIMenuController Example */,
+				036327BD14687BF800034842 /* Frameworks */,
+				036327BB14687BF800034842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036327BB14687BF800034842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036327BA14687BF800034842 /* UIMenuController Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036327BD14687BF800034842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				036327BE14687BF800034842 /* UIKit.framework */,
+				036327C014687BF800034842 /* Foundation.framework */,
+				036327C214687BF800034842 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		036327C414687BF800034842 /* UIMenuController Example */ = {
+			isa = PBXGroup;
+			children = (
+				A0D0C25116E6B1EF001CA551 /* JSAppDelegate.h */,
+				A0D0C25216E6B1EF001CA551 /* JSAppDelegate.m */,
+				A0D0C25316E6B1EF001CA551 /* JSTableViewCell.h */,
+				A0D0C25416E6B1EF001CA551 /* JSTableViewCell.m */,
+				A0D0C25516E6B1EF001CA551 /* JSViewController.h */,
+				A0D0C25616E6B1EF001CA551 /* JSViewController.m */,
+				A0D0C26016E6B32C001CA551 /* Images */,
+				036327C514687BF800034842 /* Supporting Files */,
+			);
+			path = "UIMenuController Example";
+			sourceTree = "<group>";
+		};
+		036327C514687BF800034842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D0C24916E6B1D1001CA551 /* InfoPlist.strings */,
+				A0D0C24C16E6B1E3001CA551 /* main.m */,
+				A0D0C24D16E6B1E3001CA551 /* UIMenuController Example-Info.plist */,
+				A0D0C24E16E6B1E3001CA551 /* UIMenuController Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D0C26016E6B32C001CA551 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A00975E116E6C93800EB608C /* Icon.png */,
+				A00975E316E6C93C00EB608C /* Icon@2x.png */,
+				A0D0C25C16E6B329001CA551 /* Default.png */,
+				A0D0C25D16E6B329001CA551 /* Default@2x.png */,
+				A0D0C26116E6B345001CA551 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036327B914687BF800034842 /* UIMenuController Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036327D814687BF900034842 /* Build configuration list for PBXNativeTarget "UIMenuController Example" */;
+			buildPhases = (
+				036327B614687BF800034842 /* Sources */,
+				036327B714687BF800034842 /* Frameworks */,
+				036327B814687BF800034842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIMenuController Example";
+			productName = "UIMenuController Example";
+			productReference = 036327BA14687BF800034842 /* UIMenuController Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036327B114687BF800034842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "John Szumski";
+			};
+			buildConfigurationList = 036327B414687BF800034842 /* Build configuration list for PBXProject "UIMenuController Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 036327AF14687BF800034842;
+			productRefGroup = 036327BB14687BF800034842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036327B914687BF800034842 /* UIMenuController Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036327B814687BF800034842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D0C24B16E6B1D1001CA551 /* InfoPlist.strings in Resources */,
+				A0D0C25E16E6B329001CA551 /* Default.png in Resources */,
+				A0D0C25F16E6B329001CA551 /* Default@2x.png in Resources */,
+				A0D0C26216E6B345001CA551 /* Default-568h@2x.png in Resources */,
+				A00975E216E6C93800EB608C /* Icon.png in Resources */,
+				A00975E416E6C93C00EB608C /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036327B614687BF800034842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D0C24F16E6B1E3001CA551 /* main.m in Sources */,
+				A0D0C25716E6B1EF001CA551 /* JSAppDelegate.m in Sources */,
+				A0D0C25816E6B1EF001CA551 /* JSTableViewCell.m in Sources */,
+				A0D0C25916E6B1EF001CA551 /* JSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0D0C24916E6B1D1001CA551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D0C24A16E6B1D1001CA551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036327D614687BF900034842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		036327D714687BF900034842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036327D914687BF900034842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMenuController Example/UIMenuController Example-Prefix.pch";
+				INFOPLIST_FILE = "UIMenuController Example/UIMenuController Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "UIMenuController Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		036327DA14687BF900034842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIMenuController Example/UIMenuController Example-Prefix.pch";
+				INFOPLIST_FILE = "UIMenuController Example/UIMenuController Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "UIMenuController Example";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036327B414687BF800034842 /* Build configuration list for PBXProject "UIMenuController Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036327D614687BF900034842 /* Debug */,
+				036327D714687BF900034842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036327D814687BF900034842 /* Build configuration list for PBXNativeTarget "UIMenuController Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036327D914687BF900034842 /* Debug */,
+				036327DA14687BF900034842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036327B114687BF800034842 /* Project object */;
+}
